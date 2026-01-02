@@ -43,6 +43,8 @@ def clean_wine_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     df = df.dropna(subset=["nota_cata"])
     df.drop_duplicates(subset=['name'],inplace=True)
-    df = df[df["price"]>5000]
+    df = df[df["precio"]>5000]
+
+
 
     return df
