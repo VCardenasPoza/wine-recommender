@@ -15,7 +15,7 @@ def make_dataset(
     out_path: Path = OUT_PATH
 ) -> pd.DataFrame:
     """
-    Build clean dataframe 
+    Build clean dataframe from raw data
     """
 
     df = load_csv(raw_path)
