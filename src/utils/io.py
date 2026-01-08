@@ -1,7 +1,6 @@
 from pathlib import Path
 import pandas as pd
 
-
 def load_csv(path: Path) -> pd.DataFrame:
     """
     Load dataframe from path in the project.
