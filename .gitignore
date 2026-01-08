@@ -4,5 +4,6 @@ __pycache__/
 data/processed/
 data/interim/
 tests
+models/embeddings
 .ipynb_checkpoints/
 *.pyc
