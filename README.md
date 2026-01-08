@@ -15,3 +15,8 @@ Wine descriptions and metadata in Spanish, collected from cav.cl.
 
 ## How to run
 To be defined.
+
+## Results 
+
+![UMAP de vinos](reports/umap_wines.png)
+[Visualización interactiva](reports/umap_wines.html)
